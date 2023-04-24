@@ -1,0 +1,244 @@
+.content-pages{
+    width: 80vw;
+    height: 70vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-pages{
+    margin-top: 2rem;
+
+    color: #485156;
+    text-transform: uppercase;
+}
+
+.filtros{
+    margin-top: 2rem;
+}
+
+.filtros > input{
+    height: 3rem;
+    width: 20rem;
+
+    padding: 0px 5px;
+
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #485156;
+
+    border-radius: 5px;
+    border: 2px solid #485156cc;
+    outline: none;
+}
+
+caixa-listagem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    
+    width: 60vw;
+    height: auto;
+
+    border: 2px solid #485156cc;
+    border-radius: 0.5rem;
+}
+
+.table-responsiva{
+    width: 100%;
+    text-align: center;
+    border-spacing: 0px;
+
+    overflow: auto;
+
+    font-weight: 600;
+}
+
+.table-responsiva th{    
+    border-bottom: 1px solid #485156cc;
+    padding: 1rem;
+    color: #485156;
+    text-transform: uppercase;
+}
+
+.table-responsiva th:nth-child(2){
+    border-left: 1px solid #485156cc;
+    border-right: 1px solid #485156cc;
+}
+
+.table-responsiva tr:nth-child(even) td{
+    background-color: #dfdfdf;
+}
+
+.table-responsiva td{   
+    padding: 0.5rem;
+    border-bottom: 1px solid #485156cc;
+}
+
+.table-responsiva td:nth-child(1){
+    width: 45%;
+}
+
+.table-responsiva td:nth-child(2){
+    border-left: 1px solid #485156cc;
+    border-right: 1px solid #485156cc;
+}
+
+.paraEditarClientes, .paraAddClientes{
+    background-color: #dfdfdf;
+
+    padding: 1rem;
+
+    position: relative;
+              
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.05);    
+}
+
+.camposEdit{
+    background-color: #dfdfdf;
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudoCampoEdit{
+    width: 80%;
+    height: auto;
+
+    margin: 0.8rem 0rem;
+
+    display: flex;
+    flex-direction: column;
+
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.cconteudoCampoEdit > label{
+    margin: 1rem 0rem;
+}
+
+.conteudoCampoEdit > input{
+    width: 100%;
+    height: 3rem;
+
+    padding: 0.5rem;
+
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.btnEditClientes{
+    width: 50%;
+    margin-top: 1rem;
+}
+
+.btnEditClientes > input{
+    background-color: #00853B;
+
+    width: 100%;
+
+    padding: 1rem;
+
+    border: none;
+    border-radius: 5px;
+    outline: none;
+
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 700;
+
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    cursor: pointer;
+}
+
+.fechaDialog{
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    width: 4%;
+
+    margin-top: 0.2rem;
+    margin-right: 1.2rem;
+}
+
+.fechaDialog > button{
+    background-color: transparent;
+    border: none;
+}
+
+i.ph-x-circle{
+    color: #dc143c;
+    font-size: 1.8rem;
+    font-weight: 700;
+
+    cursor: pointer;
+}
+
+.adicionaUser, .adicionaProduct{
+    background-color: #00853B;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 5vh;
+
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 700;
+
+    margin-top: 1.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;    
+}
+
+.ph-user-circle-plus, .ph-package{
+    margin-right: 0.3rem;
+    font-size: 2rem;
+}
+    
+.modal_bg {
+	position:fixed;
+	top:0;
+	left:0;
+
+	width:100%;
+	height:100%;
+
+	z-index:99;
+
+	background-color:rgba(0, 0, 0, 0.6);
+	display:none;
+}
+
+.modal {
+	position:absolute;
+
+	width:700px;
+	height:285px;
+
+	background-color:#FFFFFF;
+	z-index:100;
+	top:150px;
+	left:48%;
+	margin-left:-200px;
+
+    border-radius: 1rem;
+}

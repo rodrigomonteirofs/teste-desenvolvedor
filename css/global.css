@@ -1,0 +1,136 @@
+@import url(./home.css);
+@import url(./clientes.css);
+@import url(./produtos.css);
+@import url(./compras.css);
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+    color: #ffffff;
+}
+
+body{
+    background: #e9e9e9;
+}
+
+header{
+    background: linear-gradient(to right, #204D37, #00853B 40%);
+    width: 100vw;
+    height: 10vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    width: 10vw;    
+    padding: 1.5rem 2rem;
+    color: #ffffff;
+    font-size: 0.8rem;
+
+    display: flex;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.itens-menu{
+    background: linear-gradient(to right, #204D37, #00853B 50%);
+
+    display: none;
+
+    width: 15vw;
+    padding: 2rem;
+
+    color: #ffffff;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+    margin-top: 5rem;
+    position: absolute;
+    left: 0;
+    top:0;
+}
+
+.itens-menu li{
+    padding: 0.6rem;
+    border-bottom: 1px solid #ffffff5d;
+}
+
+.itens-menu li:hover{
+    background-color: #00853B;
+    transition: 1s;
+    cursor: pointer;    
+}
+
+i.ph-list{
+    font-size: 2rem;
+    margin-right: 0.3rem;
+    color: #ffffff;
+}
+
+i.ph-note-pencil{
+    font-size: 1.8rem;
+    margin-right: 0.3rem;
+    color: #485156;
+    cursor: pointer;
+}
+
+i.ph-trash{
+    font-size: 1.8rem;
+    margin-left: 0.3rem;
+    color: #485156;
+    cursor: pointer;
+}
+
+.logo{
+    color: #ffffff;
+    padding: 1.5rem 2rem;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 80vh;
+}
+
+footer{
+    width: 100vw;
+    height: 10vh;
+
+    font-weight: 700;
+    color: #485156;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#resultados{
+    background-color: #204D37;
+
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+
+
+

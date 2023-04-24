@@ -1,0 +1,130 @@
+.content-pages{
+    width: 80vw;
+    height: 70vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /*border: 2px solid #485156cc;*/
+}
+
+.titulo-pages{
+    margin-top: 2rem;
+
+    color: #485156;
+    text-transform: uppercase;
+}
+
+.filtros{
+    margin-top: 2rem;
+}
+
+.filtros > input{
+    height: 3rem;
+    width: 20rem;
+
+    padding: 0px 5px;
+
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #485156;
+
+    border-radius: 5px;
+    border: 2px solid #485156cc;
+    outline: none;
+}
+
+.dropDown{
+    background-color: #b3b1b1;
+    
+    width: 20rem;
+    height: 5.6rem;
+
+    margin-top: 0.7rem;
+
+    border-radius: 5px;
+
+    display: none;
+    overflow: auto;
+
+    position: fixed;
+    z-index: 1;
+}
+
+::-webkit-scrollbar{
+    background-color: #c7c2c2;
+    width: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #48515693;
+    border-radius: 0.5rem;
+}
+
+.item{
+    padding: 5px 0px 5px 5px;
+    vertical-align: middle;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.item:hover{
+    background-color: #48515693;
+    color: #ffffff;
+}
+
+.caixa-listagem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    
+    width: 60vw;
+    height: auto;
+
+    border: 2px solid #485156cc;
+    border-radius: 0.5rem;
+}
+
+.table-responsiva{
+    width: 100%;
+    text-align: center;
+    border-spacing: 0px;
+
+    font-weight: 600;
+}
+
+.table-responsiva th{    
+    border-bottom: 1px solid #485156cc;
+    padding: 1rem;
+    color: #485156;
+    text-transform: uppercase;
+}
+
+.table-responsiva th:nth-child(2){
+    border-left: 1px solid #485156cc;
+    border-right: 1px solid #485156cc;
+}
+
+.table-responsiva tr:nth-child(even) td{
+    background-color: #dfdfdf;
+}
+
+.table-responsiva td{   
+    padding: 0.5rem;
+    border-bottom: 1px solid #485156cc;
+}
+
+.table-responsiva td:nth-child(1){
+    width: 45%;
+}
+
+.table-responsiva td:nth-child(2){
+    border-left: 1px solid #485156cc;
+    border-right: 1px solid #485156cc;
+}
+    
+    
